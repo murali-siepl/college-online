@@ -6,6 +6,8 @@ import {
   useLocation,
 } from "react-router-dom";
 import EducationWebsiteDesign from "./pages/EducationWebsiteDesign";
+import Signup from "./pages/Signup";
+import "./App.css";
 
 function App() {
   const action = useNavigationType();
@@ -46,6 +48,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<EducationWebsiteDesign />} />
+      <Route path="/signup" element={<Signup />} />
     </Routes>
   );
 }

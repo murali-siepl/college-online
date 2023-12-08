@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.signup-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #00b0f5;
+  height: 130vh;
+}
+
+.signup-page img {
+  margin-top: -150px;
+}
+
+.signup-content {
+  text-align: center;
+  color: #fff;
+  margin-top: -350px;
+}
+
+.signup-content h1 {
+  font-size: 34px;
+  font-weight: 700;
+}
+.signup-content p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  overflow-y: auto;
+  height: 100vh;
+}
+
+/* @media (max-width: 767px) {
+  .form {
+    margin-top: -250px;
+  }
+
+  .terms {
+    margin-top: -250px;
+  }
+} */
+.signupPerson {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.accountLogin {
+  text-align: center;
+}
+
+.terms {
+  text-align: center;
+  font-weight: 500;
+  margin-top: -40px;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome h1 {
+  color: #414141;
+  font-size: 22px;
+}
+.welcome h2 {
+  color: #00b0f5;
+  font-size: 28px;
+  margin-top: 10px;
+}
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  padding: 16.5px 104px !important;
+}
